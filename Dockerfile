@@ -8,10 +8,10 @@ WORKDIR /src
 COPY . .
 
 # Restore dependencies
-RUN dotnet restore ./src/NoMorePies.Web/NoMorePies.Web.csproj
+RUN dotnet restore ./src/NoMorePies_Web/NoMorePies_Web.csproj
 
 # Publish the Web project
-RUN dotnet publish ./src/NoMorePies.Web/NoMorePies.Web.csproj -c Release -o /app
+RUN dotnet publish ./src/NoMorePies_Web/NoMorePies_Web.csproj -c Release -o /app
 
 
 # ============================
