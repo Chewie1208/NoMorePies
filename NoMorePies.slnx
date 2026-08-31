@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NoMorePies_Application/NoMorePies_Application.csproj" />
+    <Project Path="src/NoMorePies_Core/NoMorePies_Core.csproj" />
+    <Project Path="src/NoMorePies_Infrastructure/NoMorePies_Infrastructure.csproj" />
+    <Project Path="src/NoMorePies_Web/NoMorePies_Web.csproj" />
+  </Folder>
+</Solution>

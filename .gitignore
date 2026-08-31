@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dbmdl
+*.jfm
+*.cache
+*.log
+*.pdb
+*.DS_Store
