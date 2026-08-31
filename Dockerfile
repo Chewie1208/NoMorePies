@@ -8,7 +8,7 @@ WORKDIR /src
 COPY . .
 
 # Restore dependencies
-RUN dotnet restore NoMorePies.sln
+RUN dotnet restore NoMorePies.slnx
 
 # Publish the Web project
 RUN dotnet publish src/NoMorePies_Web/NoMorePies_Web.csproj -c Release -o /app/publish
