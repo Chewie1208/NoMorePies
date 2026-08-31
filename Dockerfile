@@ -21,7 +21,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 WORKDIR /app
 
 # Copy published output
-COPY --from=build /app/publish .
+COPY --from=build /app .
 
 # Expose port (Container Apps default)
 EXPOSE 8080
