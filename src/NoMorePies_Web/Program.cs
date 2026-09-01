@@ -26,6 +26,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+app.MapGet("/scheme", (HttpContext ctx) => ctx.Request.Scheme);
 
 app.MapControllerRoute(
     name: "default",
