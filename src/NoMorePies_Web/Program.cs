@@ -15,12 +15,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-app.UseRouting();
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.XForwardedProto
 });
+
+app.UseHttpsRedirection();
+app.UseRouting();
 
 app.UseAuthorization();
 
